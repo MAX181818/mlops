@@ -1,0 +1,7 @@
+palmerpenguins
+pandas
+scikit-learn
+joblib
+fastapi
+uvicorn[standard]
+pydantic

@@ -1,0 +1,21 @@
+{
+  "best_model": "logreg",
+  "scores": {
+    "logreg": 1.0,
+    "rf": 1.0
+  },
+  "paths": {
+    "logreg": "models\\logreg.joblib",
+    "rf": "models\\rf.joblib"
+  },
+  "active_model": "logreg",
+  "features": [
+    "island",
+    "bill_length_mm",
+    "bill_depth_mm",
+    "flipper_length_mm",
+    "body_mass_g",
+    "sex"
+  ],
+  "target": "species"
+}
