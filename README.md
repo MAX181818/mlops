@@ -25,6 +25,9 @@ Como resultado esta generando 3 archivos
    "lr_model.joblib" -- Entrenamiento de Logistic Regression
    "label_encoder.joblib" -- El resultado de estos modelos da en 0-1-2, y aqui lo cambia por el nombre de la especie del pinguino
 
+
+
+
 2. Luego generamos el main.py
 
 Aqui se construyo la API como tal
@@ -54,6 +57,24 @@ Response
 
 ### Resultado
 ![Resultado](docs/RESULTADO.png)
+
+
+Ahora generar el docker
+
+(OPCIONAL) 
+python train.py, este no es necesario volverlo a ejecutar debido a que ya estan creados los modelos
+
+1. Creamos el docker
+   docker build -t penguins-api:1.0 .
+   ### Docker
+  ![Docker](docs/docker.png)
+2. Ahora ejecutamos el docker creado con el siguiente comando
+   docker run -p 8989:8989 penguins-api:1.0
+
+Y ahora si podemos ingresar a nuestra api en la direccion local
+
+  ### Api
+![Api](docs/api.png)
 
 
 
