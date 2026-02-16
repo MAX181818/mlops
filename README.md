@@ -76,6 +76,32 @@ Y ahora si podemos ingresar a nuestra api en la direccion local
   ### Api
 ![Api](docs/api.png)
 
+Bono 
+
+En la ejecucion de la API se pueden elegir dos modelos cargados 
+
+Random forest o Regresion logistica
+
+en este parametro, se correra en el modelo de random forest
+
+  ### Modelorf
+![Modelorf](docs/Modelorf.png)
+
+
+en este parametro, se correra en el modelo de Regresion Logistica
+
+  ### Modelolr
+![Modelolr](docs/Modelolr.png)
+
+
+
+Si algun parametro queda mal escrito igual el te va a decir lo que espera
+
+
+  ### error
+![error](docs/error.png)
+
+
 
 
    
