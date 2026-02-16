@@ -52,6 +52,9 @@ Response
   "class_id": 0
 }
 
+### Resultado
+![Resultado](docs/RESULTADO.png)
+
 
 
    
